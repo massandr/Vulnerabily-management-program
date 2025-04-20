@@ -94,11 +94,55 @@ After gathering feedback from the server team, the policy is revised, addressing
 
 ### Step 4) Mock Meeting: Initial Scan Permission (Server Team)
 
-The team collaborates with the server team to initiate scheduled credential scans. A compromise is reached to scan a single server first, monitoring resource impact, and using just-in-time Active Directory credentials for secure, controlled access.  
+The cybersecurity team collaborates with the server team to initiate scheduled credential scans. A compromise is reached to scan a single server first, monitoring resource impact, and using just-in-time Active Directory credentials for secure, controlled access.  
 
-<a href='https://youtu.be/lg068WA4SKM' target="_"><img width="600" alt="image" src="https://github.com/user-attachments/assets/31fe8d0f-636b-475b-8d5a-a2795c183f86"></a>
+<details>
+  <summary>💬 Vulnerability Scanning Discussion - Dialogue between Cyber Analyst and Server Team Manager (click to expand)</summary>
 
-[YouTube Video: Initial Discovery Scan](https://youtu.be/lg068WA4SKM)
+<br>
+
+🧑‍💻 **[JOSH_CA]**: Morning, Jimmy.
+
+🧑‍🔧 **[JIMMY_ST]**: Good morning. I heard you're ready to conduct some scans?
+
+🧑‍💻 **[JOSH_CA]**: Yep! Now that our vulnerability management policy is in place, I wanted to get started on scheduled credential scans of your environment.
+
+🧑‍🔧 **[JIMMY_ST]**: Sounds good to me. What's involved? How can we help?
+
+🧑‍💻 **[JOSH_CA]**: We're planning to schedule weekly scans of the server infrastructure. We estimate it’ll take about 4 to 6 hours to scan all 200 assets.  
+We’ll need some administrative credentials that allow the scan engine to remotely log into the targets to better assess them.
+
+🧑‍🔧 **[JIMMY_ST]**: Whoa whoa, hold on there.  
+What does scanning actually entail? I’m a bit worried about resource utilization.  
+Also, you want admin credentials to all 200 machines? That doesn’t sound safe.
+
+🧑‍💻 **[JOSH_CA]**: Yeah, those are valid concerns.  
+The scan engine sends various traffic to the servers to check for vulnerabilities.  
+That includes looking into the registry, detecting outdated software, or spotting insecure protocols or cipher suites — stuff like that.  
+That’s why credentials are required.
+
+🧑‍🔧 **[JIMMY_ST]**: I see. Well, as long as it doesn’t bring the servers offline, I guess we should be okay.
+
+🧑‍💻 **[JOSH_CA]**: Absolutely. Let’s just scan a single server first and monitor the resource usage.
+
+🧑‍🔧 **[JIMMY_ST]**: Not a bad idea.
+
+🧑‍💻 **[JOSH_CA]**: Great. Also, for the credentials — could you set up something in Active Directory for us?  
+Like AD credentials we can keep disabled until scanning time, then enable during the scan, and disable or deprovision after?  
+Kind of a just-in-time access approach.
+
+🧑‍🔧 **[JIMMY_ST]**: That sounds good. I’ll ask Susan to get started on the automation for the account provisioning.
+
+🧑‍💻 **[JOSH_CA]**: Awesome. Okay, talk soon.
+
+🧑‍🔧 **[JIMMY_ST]**: Yeah, that sounds good. I’ll get back to you once the credentials are set up.
+
+🧑‍💻 **[JOSH_CA]**: See you later.
+
+🧑‍🔧 **[JIMMY_ST]**: See you later.
+
+</details>
+
 
 ---
 
