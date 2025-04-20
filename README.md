@@ -20,7 +20,7 @@ _**Completion State:**_ a formal policy is enacted, stakeholder buy-in is secure
 
 # Table of Contents
 
-- [Vulnerability Management Policy Draft Creation](#vulnerability-management-policy-draft-creation)
+- [Vulnerability Management Policy Draft Creation](#step-1-vulnerability-management-policy-draft-creation)
 - [Mock Meeting: Policy Buy-In (Stakeholders)](#step-2-mock-meeting-policy-buy-in-stakeholders)
 - [Policy Finalization and Senior Leadership Sign-Off](#step-3-policy-finalization-and-senior-leadership-sign-off)
 - [Mock Meeting: Initial Scan Permission (Server Team)](#step-4-mock-meeting-initial-scan-permission-server-team)
@@ -37,10 +37,10 @@ _**Completion State:**_ a formal policy is enacted, stakeholder buy-in is secure
 
 ---
 
-### Vulnerability Management Policy Draft Creation
+### Step 1) Vulnerability Management Policy Draft Creation
 
 This phase focuses on drafting a Vulnerability Management Policy as a starting point for stakeholder engagement. The initial draft outlines scope, responsibilities, and remediation timelines, and may be adjusted based on feedback from relevant departments to ensure practical implementation before final approval by upper management.  
-[Draft Policy](https://docs.google.com/document/d/1CLSWm1_9JL1oUqgyNNwtPXW6FzXJ7ddVnSAUQTyqC8I/edit?usp=drive_link)
+[Draft Policy](https://docs.google.com/document/d/1lbgCsKVRODyvieJ-ueD4kSV9zX_69Eh59Cbgjr83vy0/edit?usp=sharing)
 
 ---
 
@@ -48,9 +48,35 @@ This phase focuses on drafting a Vulnerability Management Policy as a starting p
 
 In this phase, a meeting with the server team introduces the draft Vulnerability Management Policy and assesses their capability to meet remediation timelines. Feedback leads to adjustments, like extending the critical remediation window from 48 hours to one week, ensuring collaborative implementation.
 
-<a href='https://youtu.be/8g6uafc6LjE' target="_"><img width="600" alt="image" src="https://github.com/user-attachments/assets/549d21f4-26c2-412d-9117-d7b6835aedbf"></a>
+<details>
+  <summary><a href="#">💬 Policy Discussion Transcript - Dialogue between Cyber Analyst and Server Team Manager (click to expand)</a></summary>
 
-[YouTube Video: Stakeholder Policy Buy-In Meeting](https://youtu.be/8g6uafc6LjE)
+<br>
+
+🧑‍💻 **[JOSH_CA]**: Hey, morning Jimmy! How's everything been recently? I know everyone's been busy these last few weeks.
+
+🧑‍🔧 **[JIMMY_ST]**: Good morning, Josh. Yeah, it's been a bit hectic, but we're hanging in there. Thanks for asking.
+
+🧑‍🔧 **[JIMMY_ST]**: I had a chance to read through the policy draft. Overall, it makes sense. However, with our current staffing, we can't meet the aggressive remediation timelines — especially that 48-hour window for critical vulnerabilities.
+
+🧑‍💻 **[JOSH_CA]**: Yeah, I totally understand. It is a bit aggressive, especially to start. Perhaps we can extend the critical window to one week? Might be a good compromise for now — and then we can reserve the 48-hour window for truly severe zero-day vulnerabilities.
+
+🧑‍🔧 **[JIMMY_ST]**: That sounds reasonable. We appreciate the flexibility. Can we also have a bit of leeway in the beginning, as we work through getting used to the remediation and patching process — just for the first few months?
+
+🧑‍💻 **[JOSH_CA]**: Absolutely. After the policy is finalized, we’ll officially start the program. But we’re planning to give all departments about six months to adjust and get comfortable with the new process. Does that sound fair?
+
+🧑‍🔧 **[JIMMY_ST]**: Thanks, Josh. We’ll do our best. I appreciate you including us in the decision-making process — it really helps to feel like we're part of the solution.
+
+🧑‍💻 **[JOSH_CA]**: Yeah, of course. We're all in this together. Thanks for working with us.
+
+🧑‍🔧 **[JIMMY_ST]**: No problem. Thanks for the short meeting.
+
+🧑‍💻 **[JOSH_CA]**: Yeah, those are my favorite kind. Bye now.
+
+🧑‍🔧 **[JIMMY_ST]**: See you later.
+
+</details>
+
 
 ---
 
