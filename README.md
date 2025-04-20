@@ -40,6 +40,7 @@ _**Completion State:**_ a formal policy is enacted, stakeholder buy-in is secure
 ### Step 1) Vulnerability Management Policy Draft Creation
 
 This phase focuses on drafting a Vulnerability Management Policy as a starting point for stakeholder engagement. The initial draft outlines scope, responsibilities, and remediation timelines, and may be adjusted based on feedback from relevant departments to ensure practical implementation before final approval by upper management.  
+
 [Draft Policy](https://docs.google.com/document/d/1lbgCsKVRODyvieJ-ueD4kSV9zX_69Eh59Cbgjr83vy0/edit?usp=sharing)
 
 ---
@@ -50,7 +51,6 @@ In this phase, a meeting with the server team introduces the draft Vulnerability
 
 <details>
   <summary><a href="#">💬 Policy Discussion Transcript - Dialogue between Cyber Analyst and Server Team Manager (click to expand)</a></summary>
-
 <br>
 
 🧑‍💻 **[JOSH_CA]**: Hey, morning Jimmy! How's everything been recently? I know everyone's been busy these last few weeks.
@@ -83,9 +83,11 @@ In this phase, a meeting with the server team introduces the draft Vulnerability
 ### Step 3) Policy Finalization and Senior Leadership Sign-Off
 
 After gathering feedback from the server team, the policy is revised, addressing aggressive remediation timelines. With final approval from upper management, the policy now guides the program, ensuring compliance and reference for pushback resolution.  
-[Finalized Policy](https://docs.google.com/document/d/1rvueLX_71pOR8ldN9zVW9r_zLzDQxVsnSUtNar8ftdg/edit?usp=drive_link)
+
+[Finalized Policy](https://docs.google.com/document/d/1H2EYSe7exDnsTOqPK43kdtalUBCY6uMND-IU4m-B0Ow/edit?usp=sharing)
+
 <div style="text-align: center;">
-    <img src="https://github.com/user-attachments/assets/9afcdbc1-0493-4af2-9287-1cb9b8f59b40" alt="image" width="400">
+    <img src="https://github.com/user-attachments/assets/6d608ff5-09b9-4b67-abea-330310a77e71" alt="image" width="400">
 </div>
 
 ---
