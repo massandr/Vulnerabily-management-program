@@ -354,11 +354,15 @@ A final scan verified the changes
 
 ### First Cycle Remediation Effort Summary
 
-The remediation process reduced total vulnerabilities by 80%, from 30 to 6. Critical vulnerabilities were resolved by the second scan (100%), and high vulnerabilities dropped by 90%. Mediums were reduced by 76%. In an actual production environment, asset criticality would further guide future remediation efforts.  
+The remediation process reduced total vulnerabilities by 83%, from 29 to 5.
+Critical vulnerabilities were fully resolved by the second scan (100% reduction).
+High-severity vulnerabilities dropped by 89%, from 9 to 1.
+Medium-severity vulnerabilities were reduced by 76%, from 17 to 4.
+In an actual production environment, asset criticality and business impact would further guide remediation prioritization and timelines.  
 
-<img width="1920" alt="image" src="https://github.com/user-attachments/assets/51f0aae8-7f36-4d90-b29f-5257e57155f9">
+<img width="1920" alt="image" src="https://github.com/user-attachments/assets/0d7fd4f6-122e-466d-aedb-7b9e31c476d9">
 
-[Remediation Data](https://docs.google.com/spreadsheets/d/1FTtFfZYmFsNLU6pm8nTzsKyKE-d2ftXzX_DPwcnFNfA/edit?gid=0#gid=0)
+[Remediation Data](https://docs.google.com/spreadsheets/d/1pi3dhryygCwE3hw0Zyt8TBs7vHLL1MXjork09-ZMlok/edit?usp=sharing)
 
 ---
 
