@@ -150,12 +150,10 @@ Kind of a just-in-time access approach.
 
 In this phase, an insecure Windows Server is provisioned to simulate the server team's environment. After creating vulnerabilities, an authenticated scan is performed, and the results are exported for future remediation steps.  
 
-<img width="635" alt="image" src="https://github.com/user-attachments/assets/937cccbd-36bb-4445-97b9-e915085cda81" style="border: 2px solid black;">
-
-[Scan 1 - Initial Scan](https://drive.google.com/file/d/1RBPVj_azKJMwmRZ8QILlb4hxIjQU3wQ7/view?usp=drive_link)
+<img width="635" alt="image" src="https://github.com/user-attachments/assets/973d562c-7a14-4eac-b811-bb3a1c9ba5ee" style="border: 2px solid black;">
 
 
-
+[Scan 1 - Initial Scan](https://drive.google.com/file/d/1L7gsmb0cz3phX-QUldgOvc3_w_Ico4WM/view?usp=sharing)
 
 ---
 
@@ -174,9 +172,9 @@ We assessed vulnerabilities and established a remediation prioritization strateg
 
 The server team received remediation scripts and scan reports to address key vulnerabilities. This streamlined their efforts and prepared them for a follow-up review.  
 
-<img width="635" alt="image" src="https://github.com/user-attachments/assets/bbf9478f-e1d1-4898-846e-b510ec8c6f72">
+<img width="635" alt="image" src="https://github.com/user-attachments/assets/646ce2ad-8e59-41ff-b45c-2a19137dee88">
 
-[Remediation Email](https://github.com/joshmadakor1/lognpacific-public/blob/main/misc/remediation-email.md)
+[Remediation Email](https://github.com/massandr/Vulnerabily-management-program/blob/main/remediation-email.md)
 
 ---
 
