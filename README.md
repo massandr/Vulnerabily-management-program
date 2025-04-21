@@ -319,6 +319,7 @@ The server team used a PowerShell script to remove outdated Wireshark. A follow-
 
 The server team used PowerShell scripts to remediate insecure protocols and cipher suites. A follow-up scan verified successful remediation, and the results were saved for reference.  
 [PowerShell: Insecure Protocols Remediation](https://github.com/massandr/Vulnerabily-management-program/blob/main/toggle-protocols.ps1)
+
 [PowerShell: Insecure Ciphers Remediation](https://github.com/massandr/Vulnerabily-management-program/blob/main/toggle-cipher-suites.ps1)
 
 <img width="630" alt="image" src="https://github.com/user-attachments/assets/6f31670a-87ef-4bbb-b615-695615b94b8d">
@@ -331,7 +332,7 @@ The server team used PowerShell scripts to remediate insecure protocols and ciph
 The server team removed the guest account from the administrator group. A new scan confirmed remediation, and the results were exported for comparison.  
 [PowerShell: Guest Account Group Membership Remediation](https://github.com/massandr/Vulnerabily-management-program/blob/main/toggle-guest-local-administrators.ps1)  
 
-<img width="627" alt="image" src="[https://github.com/user-attachments/assets/870a3eac-3398-44fe-91c0-96f3c2578df4](https://github.com/user-attachments/assets/8478ef0d-de29-4ce1-ae09-ce73c062b6ff)">
+<img width="627" alt="image" src="https://github.com/user-attachments/assets/e6e601ea-fbbb-4153-a385-194fcdc9e13d">
 
 [Scan 4 - Guest Account Group Removal](https://drive.google.com/file/d/1DvB9Xaf3bULuemMzPPDiYGacYrIqJlWD/view?usp=sharing)
 
