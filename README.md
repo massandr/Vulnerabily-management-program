@@ -337,17 +337,18 @@ The server team removed the guest account from the administrator group. A new sc
 [Scan 4 - Guest Account Group Removal](https://drive.google.com/file/d/1DvB9Xaf3bULuemMzPPDiYGacYrIqJlWD/view?usp=sharing)
 
 
-#### Remediation Round 4: Windows OS Updates
+#### Remediation Round 4: Windows OS Updates and EnableCertPaddingCheck
 
 Windows updates were re-enabled and applied until the system was fully up to date. 
 The Server Team used PowerShell script to mitigate CVE-2013-3900 by enabling strict certificate padding checks as per Microsoft guidance.
+
 [PowerShell: EnableCertPaddingCheck](https://github.com/massandr/Vulnerabily-management-program/blob/main/remediation-cve2013-3900.ps1)  
 
 A final scan verified the changes  
 
-<img width="627" alt="image" src="https://github.com/user-attachments/assets/870a3eac-3398-44fe-91c0-96f3c2578df4">
+<img width="627" alt="image" src="https://github.com/user-attachments/assets/b4544444-0094-4700-be3c-34fdab391df4">
 
-[Scan 5 - Post Windows Updates](https://drive.google.com/file/d/1tmDjeHl5uiGitRwWy8kFRi33q-nGi1Zt/view?usp=drive_link)
+[Scan 5 - Post Windows Updates](https://drive.google.com/file/d/14rK_oVVb_qKuIOif7v4i2D9YSQ4w4XLB/view?usp=sharing)
 
 ---
 
