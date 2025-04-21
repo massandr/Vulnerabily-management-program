@@ -53,27 +53,27 @@ In this phase, a meeting with the server team introduces the draft Vulnerability
   <summary>💬 Policy Discussion Transcript - Dialogue between Cyber Analyst and Server Team Manager (click to expand)</summary>
 <br>
 
-🧑‍💻 **[JOSH_CA]**: Hey, morning Jimmy! How's everything been recently? I know everyone's been busy these last few weeks.
+🟢 **[JOSH_CA]**: Hey, morning Jimmy! How's everything been recently? I know everyone's been busy these last few weeks.
 
-🧑‍🔧 **[JIMMY_ST]**: Good morning, Josh. Yeah, it's been a bit hectic, but we're hanging in there. Thanks for asking.
+🔵 **[JIMMY_ST]**: Good morning, Josh. Yeah, it's been a bit hectic, but we're hanging in there. Thanks for asking.
 
-🧑‍🔧 **[JIMMY_ST]**: I had a chance to read through the policy draft. Overall, it makes sense. However, with our current staffing, we can't meet the aggressive remediation timelines — especially that 48-hour window for critical vulnerabilities.
+🔵 **[JIMMY_ST]**: I had a chance to read through the policy draft. Overall, it makes sense. However, with our current staffing, we can't meet the aggressive remediation timelines — especially that 48-hour window for critical vulnerabilities.
 
-🧑‍💻 **[JOSH_CA]**: Yeah, I totally understand. It is a bit aggressive, especially to start. Perhaps we can extend the critical window to one week? Might be a good compromise for now — and then we can reserve the 48-hour window for truly severe zero-day vulnerabilities.
+🟢 **[JOSH_CA]**: Yeah, I totally understand. It is a bit aggressive, especially to start. Perhaps we can extend the critical window to one week? Might be a good compromise for now — and then we can reserve the 48-hour window for truly severe zero-day vulnerabilities.
 
-🧑‍🔧 **[JIMMY_ST]**: That sounds reasonable. We appreciate the flexibility. Can we also have a bit of leeway in the beginning, as we work through getting used to the remediation and patching process — just for the first few months?
+🔵 **[JIMMY_ST]**: That sounds reasonable. We appreciate the flexibility. Can we also have a bit of leeway in the beginning, as we work through getting used to the remediation and patching process — just for the first few months?
 
-🧑‍💻 **[JOSH_CA]**: Absolutely. After the policy is finalized, we’ll officially start the program. But we’re planning to give all departments about six months to adjust and get comfortable with the new process. Does that sound fair?
+🟢 **[JOSH_CA]**: Absolutely. After the policy is finalized, we’ll officially start the program. But we’re planning to give all departments about six months to adjust and get comfortable with the new process. Does that sound fair?
 
-🧑‍🔧 **[JIMMY_ST]**: Thanks, Josh. We’ll do our best. I appreciate you including us in the decision-making process — it really helps to feel like we're part of the solution.
+🔵 **[JIMMY_ST]**: Thanks, Josh. We’ll do our best. I appreciate you including us in the decision-making process — it really helps to feel like we're part of the solution.
 
-🧑‍💻 **[JOSH_CA]**: Yeah, of course. We're all in this together. Thanks for working with us.
+🟢 **[JOSH_CA]**: Yeah, of course. We're all in this together. Thanks for working with us.
 
-🧑‍🔧 **[JIMMY_ST]**: No problem. Thanks for the short meeting.
+🔵 **[JIMMY_ST]**: No problem. Thanks for the short meeting.
 
-🧑‍💻 **[JOSH_CA]**: Yeah, those are my favorite kind. Bye now.
+🟢 **[JOSH_CA]**: Yeah, those are my favorite kind. Bye now.
 
-🧑‍🔧 **[JIMMY_ST]**: See you later.
+🔵 **[JIMMY_ST]**: See you later.
 
 </details>
 
@@ -101,45 +101,45 @@ The cybersecurity team collaborates with the server team to initiate scheduled c
 
 <br>
 
-🧑‍💻 **[JOSH_CA]**: Morning, Jimmy.
+🟢 **[JOSH_CA]**: Morning, Jimmy.
 
-🧑‍🔧 **[JIMMY_ST]**: Good morning. I heard you're ready to conduct some scans?
+🔵 **[JIMMY_ST]**: Good morning. I heard you're ready to conduct some scans?
 
-🧑‍💻 **[JOSH_CA]**: Yep! Now that our vulnerability management policy is in place, I wanted to get started on scheduled credential scans of your environment.
+🟢 **[JOSH_CA]**: Yep! Now that our vulnerability management policy is in place, I wanted to get started on scheduled credential scans of your environment.
 
-🧑‍🔧 **[JIMMY_ST]**: Sounds good to me. What's involved? How can we help?
+🔵 **[JIMMY_ST]**: Sounds good to me. What's involved? How can we help?
 
-🧑‍💻 **[JOSH_CA]**: We're planning to schedule weekly scans of the server infrastructure. We estimate it’ll take about 4 to 6 hours to scan all 200 assets.  
+🟢 **[JOSH_CA]**: We're planning to schedule weekly scans of the server infrastructure. We estimate it’ll take about 4 to 6 hours to scan all 200 assets.  
 We’ll need some administrative credentials that allow the scan engine to remotely log into the targets to better assess them.
 
-🧑‍🔧 **[JIMMY_ST]**: Whoa whoa, hold on there.  
+🔵 **[JIMMY_ST]**: Whoa whoa, hold on there.  
 What does scanning actually entail? I’m a bit worried about resource utilization.  
 Also, you want admin credentials to all 200 machines? That doesn’t sound safe.
 
-🧑‍💻 **[JOSH_CA]**: Yeah, those are valid concerns.  
+🟢 **[JOSH_CA]**: Yeah, those are valid concerns.  
 The scan engine sends various traffic to the servers to check for vulnerabilities.  
 That includes looking into the registry, detecting outdated software, or spotting insecure protocols or cipher suites — stuff like that.  
 That’s why credentials are required.
 
-🧑‍🔧 **[JIMMY_ST]**: I see. Well, as long as it doesn’t bring the servers offline, I guess we should be okay.
+🔵 **[JIMMY_ST]**: I see. Well, as long as it doesn’t bring the servers offline, I guess we should be okay.
 
-🧑‍💻 **[JOSH_CA]**: Absolutely. Let’s just scan a single server first and monitor the resource usage.
+🟢 **[JOSH_CA]**: Absolutely. Let’s just scan a single server first and monitor the resource usage.
 
-🧑‍🔧 **[JIMMY_ST]**: Not a bad idea.
+🔵 **[JIMMY_ST]**: Not a bad idea.
 
-🧑‍💻 **[JOSH_CA]**: Great. Also, for the credentials — could you set up something in Active Directory for us?  
+🟢 **[JOSH_CA]**: Great. Also, for the credentials — could you set up something in Active Directory for us?  
 Like AD credentials we can keep disabled until scanning time, then enable during the scan, and disable or deprovision after?  
 Kind of a just-in-time access approach.
 
-🧑‍🔧 **[JIMMY_ST]**: That sounds good. I’ll ask Susan to get started on the automation for the account provisioning.
+🔵 **[JIMMY_ST]**: That sounds good. I’ll ask Susan to get started on the automation for the account provisioning.
 
-🧑‍💻 **[JOSH_CA]**: Awesome. Okay, talk soon.
+🟢 **[JOSH_CA]**: Awesome. Okay, talk soon.
 
-🧑‍🔧 **[JIMMY_ST]**: Yeah, that sounds good. I’ll get back to you once the credentials are set up.
+🔵 **[JIMMY_ST]**: Yeah, that sounds good. I’ll get back to you once the credentials are set up.
 
-🧑‍💻 **[JOSH_CA]**: See you later.
+🟢 **[JOSH_CA]**: See you later.
 
-🧑‍🔧 **[JIMMY_ST]**: See you later.
+🔵 **[JIMMY_ST]**: See you later.
 
 </details>
 
@@ -187,68 +187,68 @@ The server team reviewed vulnerability scan results, identifying outdated softwa
 
 <br>
 
-🧑‍💻 **[JOSH_CA]**: Morning, Jimmy. How are you doing?
+🟢 **[JOSH_CA]**: Morning, Jimmy. How are you doing?
 
-🧑‍🔧 **[JIMMY_ST]**: Not bad for a Monday. And yourself?
+🔵 **[JIMMY_ST]**: Not bad for a Monday. And yourself?
 
-🧑‍💻 **[JOSH_CA]**: I'm still alive, so I can’t complain.  
+🟢 **[JOSH_CA]**: I'm still alive, so I can’t complain.  
 But before we get into the vulnerabilities — how did the actual scan go on your end?  
 Any outages or overutilization?
 
-🧑‍🔧 **[JIMMY_ST]**: The scan went well. We were monitoring them, and aside from all the open connections, we wouldn’t have even known a scan was taking place.
+🔵 **[JIMMY_ST]**: The scan went well. We were monitoring them, and aside from all the open connections, we wouldn’t have even known a scan was taking place.
 
-🧑‍💻 **[JOSH_CA]**: Yeah, that’s good news. I kind of expected that.  
+🟢 **[JOSH_CA]**: Yeah, that’s good news. I kind of expected that.  
 We’ll keep monitoring going forward, but I don’t expect any resource issues.  
 Do you mind if I dive into the vulnerability findings?
 
-🧑‍🔧 **[JIMMY_ST]**: Yeah, absolutely.
+🔵 **[JIMMY_ST]**: Yeah, absolutely.
 
-🧑‍💻 **[JOSH_CA]**: Cool. I’m going to share my screen real quick.  
+🟢 **[JOSH_CA]**: Cool. I’m going to share my screen real quick.  
 So basically, the majority of these vulnerabilities are coming from **Wireshark** being installed — and it’s super out of date.  
 You can see a bunch of those here.
 
-🧑‍💻 **[JOSH_CA]**: One interesting thing I found — the local **Guest** account on the servers actually belongs to a group,  
+🟢 **[JOSH_CA]**: One interesting thing I found — the local **Guest** account on the servers actually belongs to a group,  
 and that group is the **local administrators** group. Not sure why that is.  
 Also, some findings like the **Microsoft Edge (Chromium)** one might get resolved by Windows Updates.
 
-🧑‍💻 **[JOSH_CA]**: We can probably ignore the **self-signed certificate** issue — it's just the computer’s default cert.  
+🟢 **[JOSH_CA]**: We can probably ignore the **self-signed certificate** issue — it's just the computer’s default cert.  
 But these **medium-strength cipher suites** and the **TLS 1.0 / 1.1** protocols — they’re deprecated.  
 We should definitely take time to remediate those.
 
-🧑‍💻 **[JOSH_CA]**: So overall, we're looking at:  
+🟢 **[JOSH_CA]**: So overall, we're looking at:  
 - Removing outdated Wireshark  
 - Fixing deprecated protocols and cipher suites  
 - Disabling or removing the Guest account from the admin group
 
-🧑‍🔧 **[JIMMY_ST]**: Very interesting.  
+🔵 **[JIMMY_ST]**: Very interesting.  
 The good news is — I suspect most of our servers will have the same vulnerabilities.  
 Hopefully that makes remediation easier.
 
-🧑‍💻 **[JOSH_CA]**: Yeah, that’s actually great — kind of like a uniform loadout.  
+🟢 **[JOSH_CA]**: Yeah, that’s actually great — kind of like a uniform loadout.  
 Do you foresee any issues remediating anything specific, like the cipher suites or the insecure protocols?
 
-🧑‍🔧 **[JIMMY_ST]**: I highly doubt it.  
+🔵 **[JIMMY_ST]**: I highly doubt it.  
 We’ll run it through the next Change Control Board.  
 Uninstalling Wireshark and fixing the Guest account shouldn’t be a problem — they’re not supposed to be on servers anyway.  
 I’ll check with our CIS admins just to be sure.
 
-🧑‍💻 **[JOSH_CA]**: That’s good news.  
+🟢 **[JOSH_CA]**: That’s good news.  
 I’ll go ahead and build some remediation packages to make your life easier when it’s time to fix them.
 
-🧑‍🔧 **[JIMMY_ST]**: Yeah, that sounds great.  
+🔵 **[JIMMY_ST]**: Yeah, that sounds great.  
 Oh — do you have anything in place to fix the Windows Update-related vulnerabilities? Like patch management?
 
-🧑‍💻 **[JOSH_CA]**: Oh yes, not worried about that.  
+🟢 **[JOSH_CA]**: Oh yes, not worried about that.  
 Windows Updates should be handled automatically by next week — we have patch management in place.
 
-🧑‍🔧 **[JIMMY_ST]**: Okay, excellent.
+🔵 **[JIMMY_ST]**: Okay, excellent.
 
-🧑‍💻 **[JOSH_CA]**: All right — I’ll get started on researching the best way to remediate these findings.  
+🟢 **[JOSH_CA]**: All right — I’ll get started on researching the best way to remediate these findings.  
 I’ll get back to you before the next Change Control Board.
 
-🧑‍🔧 **[JIMMY_ST]**: Sounds good. Talk to you soon.
+🔵 **[JIMMY_ST]**: Sounds good. Talk to you soon.
 
-🧑‍💻 **[JOSH_CA]**: Cool cool. Talk to you soon.
+🟢 **[JOSH_CA]**: Cool cool. Talk to you soon.
 
 </details>
 
@@ -259,9 +259,48 @@ I’ll get back to you before the next Change Control Board.
 
 The Change Control Board (CAB) reviewed and approved the plan to remove insecure protocols and cipher suites. The plan included a rollback script and a tiered deployment approach.  
 
-<a href="https://youtu.be/zOFPkTa9kY8" target="_"><img width="600" src="https://github.com/user-attachments/assets/07164e63-fbce-471a-b469-29a6d41b7bb8"/></a>
+<details>
+  <summary><a href="#">💬 CAP Meeting Recap - Multi-Team Dialogue on Remediation Strategy (click to expand)</a></summary>
 
-[Meeting Video](https://youtu.be/zOFPkTa9kY8)
+<br>
+
+🟡 **[JOHNNY_CAB]**: Okay, next up on the list are a couple of vulnerability remediations for the server team.  
+Number one: removal of insecure protocols.  
+Number two: removal of insecure cipher suites.  
+Looks like Josh from Risk is working in conjunction with Jimmy from Infrastructure.  
+
+🟡 **[JOHNNY_CAB]**: Jimmy, do you want to walk us through the technical aspects of the change being implemented?
+
+🔵 **[JIMMY_ST]**: Normally I would, but do you mind giving this one to Josh?  
+He actually built the solution for us — we’re still getting used to the process.
+
+🟢 **[JOSH_CA]**: Uh, yeah — I can explain these.  
+Basically, insecure cipher suites and protocols mean the system is capable of negotiating deprecated algorithms.  
+If it connects to another server that only supports old protocols, it might end up using them.
+
+🟢 **[JOSH_CA]**: These settings are managed through the Windows Registry.  
+We wrote a PowerShell script that disables the insecure stuff and enables the secure, modern protocols and ciphers.  
+It’s a really straightforward fix.
+
+🔴 **[JACK_SYSENG]**: Yeah, that sounds good — but what if something goes wrong?  
+Do we have a rollback plan in place? Did you even think about that?
+
+🟢 **[JOSH_CA]**: Yes, absolutely.  
+We’re using a **tiered deployment model**: pilot group, pre-prod, then production.  
+And every remediation script has a built-in automated rollback function.
+
+🟢 **[JOSH_CA]**: So if anything breaks, the script will revert the registry changes and restore the original state.
+
+🔴 **[JACK_SYSENG]**: That sounds good.  
+If it’s just registry updates, I’m not too concerned. Seems clean.
+
+🟢 **[JOSH_CA]**: Yep, exactly. Super controlled.
+Any other questions?
+
+🟡 **[JOHNNY_CAB]**: Okay, that wraps things up for this week’s CAP meeting.  
+Thanks everyone — see you all next week.
+
+</details>
 
 ---
 ### Step 10 ) Remediation Effort
