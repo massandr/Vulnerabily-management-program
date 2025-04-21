@@ -182,9 +182,76 @@ The server team received remediation scripts and scan reports to address key vul
 
 The server team reviewed vulnerability scan results, identifying outdated software, insecure accounts, and deprecated protocols. The remediation packages were prepared for submission to the Change Control Board (CAB). 
 
-<a href="https://youtu.be/0tjjFewxSNw" target="_"><img width="600" src="https://github.com/user-attachments/assets/03027c66-5f7c-42d0-b6dd-09d053c040b1"/></a>
+<details>
+  <summary>💬 Vulnerability Scan Debrief - Dialogue between Cyber Analyst and Server Team Manager (click to expand)</summary>
 
-[Meeting Video](https://youtu.be/0tjjFewxSNw)
+<br>
+
+🧑‍💻 **[JOSH_CA]**: Morning, Jimmy. How are you doing?
+
+🧑‍🔧 **[JIMMY_ST]**: Not bad for a Monday. And yourself?
+
+🧑‍💻 **[JOSH_CA]**: I'm still alive, so I can’t complain.  
+But before we get into the vulnerabilities — how did the actual scan go on your end?  
+Any outages or overutilization?
+
+🧑‍🔧 **[JIMMY_ST]**: The scan went well. We were monitoring them, and aside from all the open connections, we wouldn’t have even known a scan was taking place.
+
+🧑‍💻 **[JOSH_CA]**: Yeah, that’s good news. I kind of expected that.  
+We’ll keep monitoring going forward, but I don’t expect any resource issues.  
+Do you mind if I dive into the vulnerability findings?
+
+🧑‍🔧 **[JIMMY_ST]**: Yeah, absolutely.
+
+🧑‍💻 **[JOSH_CA]**: Cool. I’m going to share my screen real quick.  
+So basically, the majority of these vulnerabilities are coming from **Wireshark** being installed — and it’s super out of date.  
+You can see a bunch of those here.
+
+🧑‍💻 **[JOSH_CA]**: One interesting thing I found — the local **Guest** account on the servers actually belongs to a group,  
+and that group is the **local administrators** group. Not sure why that is.  
+Also, some findings like the **Microsoft Edge (Chromium)** one might get resolved by Windows Updates.
+
+🧑‍💻 **[JOSH_CA]**: We can probably ignore the **self-signed certificate** issue — it's just the computer’s default cert.  
+But these **medium-strength cipher suites** and the **TLS 1.0 / 1.1** protocols — they’re deprecated.  
+We should definitely take time to remediate those.
+
+🧑‍💻 **[JOSH_CA]**: So overall, we're looking at:  
+- Removing outdated Wireshark  
+- Fixing deprecated protocols and cipher suites  
+- Disabling or removing the Guest account from the admin group
+
+🧑‍🔧 **[JIMMY_ST]**: Very interesting.  
+The good news is — I suspect most of our servers will have the same vulnerabilities.  
+Hopefully that makes remediation easier.
+
+🧑‍💻 **[JOSH_CA]**: Yeah, that’s actually great — kind of like a uniform loadout.  
+Do you foresee any issues remediating anything specific, like the cipher suites or the insecure protocols?
+
+🧑‍🔧 **[JIMMY_ST]**: I highly doubt it.  
+We’ll run it through the next Change Control Board.  
+Uninstalling Wireshark and fixing the Guest account shouldn’t be a problem — they’re not supposed to be on servers anyway.  
+I’ll check with our CIS admins just to be sure.
+
+🧑‍💻 **[JOSH_CA]**: That’s good news.  
+I’ll go ahead and build some remediation packages to make your life easier when it’s time to fix them.
+
+🧑‍🔧 **[JIMMY_ST]**: Yeah, that sounds great.  
+Oh — do you have anything in place to fix the Windows Update-related vulnerabilities? Like patch management?
+
+🧑‍💻 **[JOSH_CA]**: Oh yes, not worried about that.  
+Windows Updates should be handled automatically by next week — we have patch management in place.
+
+🧑‍🔧 **[JIMMY_ST]**: Okay, excellent.
+
+🧑‍💻 **[JOSH_CA]**: All right — I’ll get started on researching the best way to remediate these findings.  
+I’ll get back to you before the next Change Control Board.
+
+🧑‍🔧 **[JIMMY_ST]**: Sounds good. Talk to you soon.
+
+🧑‍💻 **[JOSH_CA]**: Cool cool. Talk to you soon.
+
+</details>
+
 
 ---
 
