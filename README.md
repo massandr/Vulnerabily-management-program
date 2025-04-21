@@ -308,37 +308,41 @@ Thanks everyone — see you all next week.
 #### Remediation Round 1: Outdated Wireshark Removal
 
 The server team used a PowerShell script to remove outdated Wireshark. A follow-up scan confirmed successful remediation.  
-[Wireshark Removal Script](https://github.com/joshmadakor1/lognpacific-public/blob/main/automation/remediation-wireshark-uninstall.ps1)  
+[Wireshark Removal Script](https://github.com/massandr/Vulnerabily-management-program/blob/main/remediation-wireshark-uninstall.ps1)  
 
-<img width="634" alt="image" src="https://github.com/user-attachments/assets/7b4f9ab2-d230-4458-ac0f-c0ff070ae79a">
+<img width="634" alt="image" src="https://github.com/user-attachments/assets/5e595d5a-e768-4069-87e3-a78511e12c7c">
 
-[Scan 2 - Third Party Software Removal](https://drive.google.com/file/d/1UiwPPTtuSZKk02hiMyXf31pXUIeC5EWt/view?usp=drive_link)
+[Scan 2 - Third Party Software Removal](https://drive.google.com/file/d/1X2QT1I6lyKVeGbY9LQmYv5cUGqKGZH0-/view?usp=sharing)
 
 
 #### Remediation Round 2: Insecure Protocols & Ciphers
 
 The server team used PowerShell scripts to remediate insecure protocols and cipher suites. A follow-up scan verified successful remediation, and the results were saved for reference.  
-[PowerShell: Insecure Protocols Remediation](https://github.com/joshmadakor1/lognpacific-public/blob/main/automation/toggle-protocols.ps1)
-[PowerShell: Insecure Ciphers Remediation](https://github.com/joshmadakor1/lognpacific-public/blob/main/automation/toggle-cipher-suites.ps1)
+[PowerShell: Insecure Protocols Remediation](https://github.com/massandr/Vulnerabily-management-program/blob/main/toggle-protocols.ps1)
+[PowerShell: Insecure Ciphers Remediation](https://github.com/massandr/Vulnerabily-management-program/blob/main/toggle-cipher-suites.ps1)
 
-<img width="630" alt="image" src="https://github.com/user-attachments/assets/0e96120d-8ec9-4f76-8e42-79c752200010">
+<img width="630" alt="image" src="https://github.com/user-attachments/assets/6f31670a-87ef-4bbb-b615-695615b94b8d">
 
-[Scan 3 - Ciphersuites and Protocols](https://drive.google.com/file/d/1Qc6-ezQvwReCGUZNtnva0kCZo_-zW-Sm/view?usp=drive_link)
+[Scan 3 - Ciphersuites and Protocols](https://drive.google.com/file/d/1Ib_BJX_Kl_VOjuFEGj5fRdwBBPaLufOS/view?usp=sharing)
 
 
 #### Remediation Round 3: Guest Account Group Membership
 
 The server team removed the guest account from the administrator group. A new scan confirmed remediation, and the results were exported for comparison.  
-[PowerShell: Guest Account Group Membership Remediation](https://github.com/joshmadakor1/lognpacific-public/blob/main/automation/toggle-guest-local-administrators.ps1)  
+[PowerShell: Guest Account Group Membership Remediation](https://github.com/massandr/Vulnerabily-management-program/blob/main/toggle-guest-local-administrators.ps1)  
 
-<img width="627" alt="image" src="https://github.com/user-attachments/assets/870a3eac-3398-44fe-91c0-96f3c2578df4">
+<img width="627" alt="image" src="[https://github.com/user-attachments/assets/870a3eac-3398-44fe-91c0-96f3c2578df4](https://github.com/user-attachments/assets/8478ef0d-de29-4ce1-ae09-ce73c062b6ff)">
 
-[Scan 4 - Guest Account Group Removal](https://drive.google.com/file/d/1jVgikjfrV1YjOcL3QRT_oUB0Y82w22V7/view?usp=drive_link)
+[Scan 4 - Guest Account Group Removal](https://drive.google.com/file/d/1DvB9Xaf3bULuemMzPPDiYGacYrIqJlWD/view?usp=sharing)
 
 
 #### Remediation Round 4: Windows OS Updates
 
-Windows updates were re-enabled and applied until the system was fully up to date. A final scan verified the changes  
+Windows updates were re-enabled and applied until the system was fully up to date. 
+The Server Team used PowerShell script to mitigate CVE-2013-3900 by enabling strict certificate padding checks as per Microsoft guidance.
+[PowerShell: EnableCertPaddingCheck](https://github.com/massandr/Vulnerabily-management-program/blob/main/remediation-cve2013-3900.ps1)  
+
+A final scan verified the changes  
 
 <img width="627" alt="image" src="https://github.com/user-attachments/assets/870a3eac-3398-44fe-91c0-96f3c2578df4">
 
